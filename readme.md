@@ -35,8 +35,8 @@ Migrate your database:
 
 The folowing views are available to use:
 
-    "visitorcount::graph"
-    "visitorcount::stats"
+    @include("visitorcount::graph")
+    @include("visitorcount::stats")
     
 Register the `countVisit` middleware on the routes you want to count visits.
 

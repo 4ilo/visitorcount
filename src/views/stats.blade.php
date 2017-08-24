@@ -13,5 +13,3 @@
         <td>{{ $vorigeMaand }}</td>
     </tr>
 </table>
-
-<a href="/admin/bezoekers" class="btn btn-primary">Grafiek</a>
