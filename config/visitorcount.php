@@ -1,5 +1,5 @@
 <?php
 
 return [
-    "middleware" => ["auth", "throttle:5,1"]
+    "middleware" => ["web", "auth", "throttle:5,1"]
 ];
