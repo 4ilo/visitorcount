@@ -6,9 +6,12 @@ use Illuminate\Support\Facades\DB;
 
 Route::get("visitorcount/graphdata", function () {
     
-    $eersteJaar = Carbon::createFromFormat("Y-m-d",DB::table("visits")
-                                                     ->orderBy("datum")
-                                                     ->first()->datum)->year;
+    $firstVisit = DB::table("visits")->orderBy("datum")->first();
+    if (!$firstVisit) 
+        return "";
+
+    $eersteJaar = Carbon::createFromFormat("Y-m-d",$firstVisit->datum)
+                        ->year;
     
     // We gaan voor elk jaar waarvoor er records zijn tellen hoeveel er per maand zijn
     $bezoekersdata = [];
