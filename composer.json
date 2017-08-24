@@ -1,0 +1,21 @@
+{
+    "name": "ovde/visitorcount",
+    "description": "Visitor statistics for your website",
+    "require": {
+        "nesbot/carbon": "*",
+        "illuminate/support": "^5.4",
+        "donatj/phpuseragentparser": "*"
+    },
+    "authors": [
+        {
+            "name": "Olivier",
+            "email": "oliviervandeneede@hotmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Ovde\\Visitorcount\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
