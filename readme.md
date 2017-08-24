@@ -2,14 +2,13 @@ A simple visitor counter with graph for Laravel
 
 ## Installation
 
-Clone the package in a `packages/ovde` directory.
-
 Add to your composer.json file:
 
     "repositories": [
         {
-            "type": "path",
-            "url": "packages/ovde/visitorcount"
+            "type": "git",
+            "name": "visitorcount",
+            "url": "https://github.com/4ilo/visitorcount.git"
         }
     ],
     "require": {
