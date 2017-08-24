@@ -6,7 +6,7 @@ $(document).ready(function () {
     var graphData;
     var datasetValue = [];
 
-    $.get("visitorcount/graphdata", function (data, status) {
+    $.get("/visitorcount/graphdata", function (data, status) {
         if(status == "success")     // We hebben via ajax de data opgehaald, nu gaan we deze verwerken
         {
             // Voor elk jaar moeten we een dataset maken
