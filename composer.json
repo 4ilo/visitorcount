@@ -17,5 +17,12 @@
             "Ovde\\Visitorcount\\": "src/"
         }
     },
-    "minimum-stability": "dev"
+    "minimum-stability": "stable",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Ovde\\Visitorcount\\VisitorCountServiceProvider"
+            ]
+        }
+    }
 }
