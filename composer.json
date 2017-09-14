@@ -3,7 +3,7 @@
     "description": "Visitor statistics for your website",
     "require": {
         "nesbot/carbon": "*",
-        "illuminate/support": "^5.4",
+        "illuminate/support": "^5.5",
         "donatj/phpuseragentparser": "*"
     },
     "authors": [
