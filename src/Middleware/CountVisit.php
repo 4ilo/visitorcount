@@ -25,7 +25,7 @@ class CountVisit
             "datum" => Carbon::now()->toDateString(),
             "ipAdres" => Request::ip(),
             "platform" => $client["platform"] ?: "Bot",
-            "browser" => $client["browser"],
+            "browser" => $client["browser"] ?: "Bot",
         ]);
         return $next($request);
     }
