@@ -2,21 +2,9 @@ A simple visitor counter with graph for Laravel
 
 ## Installation
 
-Add to your composer.json file:
+    composer require ovde/visitorcount
 
-    "repositories": [
-        {
-            "type": "git",
-            "name": "visitorcount",
-            "url": "https://github.com/4ilo/visitorcount.git"
-        }
-    ],
-    "require": {
-        ...
-        "ovde/visitorcount": "dev-master"
-    },
-
-Now all you have to do is add the service provider of the package. To do this open your `config/app.php` file.
+For Laravel < 5.5 add the service provider of the package. To do this open your `config/app.php` file.
 
 Add a new line to the `providers` array:
 
