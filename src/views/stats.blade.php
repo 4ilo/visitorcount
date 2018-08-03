@@ -1,15 +1,15 @@
-<h3>Bezoeker statistieken</h3>
+<h3>Visitor statistics</h3>
 <table class="table">
     <tr>
-        <th>Periode</th>
-        <th>Aantal bezoekers</th>
+        <th>Period</th>
+        <th>Number of visitors</th>
     </tr>
     <tr>
-        <td>Deze maand</td>
+        <td>This month</td>
         <td>{{ $dezeMaand }}</td>
     </tr>
     <tr>
-        <td>Vorige maand</td>
+        <td>Last month</td>
         <td>{{ $vorigeMaand }}</td>
     </tr>
 </table>

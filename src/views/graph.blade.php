@@ -1,4 +1,4 @@
-<h3>Bezoeker statistieken</h3>
+<h3>Visitor statistics</h3>
 <canvas id="mychart"></canvas>
 
 <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
